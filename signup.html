@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.macroaxis.com/widgets/url.jsp?t=42"></script>
+</head>
+<body>
+    <h1>sign up below</h1>
+    <form action="processing.php?action=signup" method="post">
+       <h1> <label> NAME <input type="text" name="name" required placeholder="your full name"></label></h1>
+       <h1>   <label> EMAIL<input type="text" name="email" required placeholder="your email"></label></h1>
+        <h1>  <label> PHONE NUMBER <input type="number" name="phonenumber" required placeholder="your phonenumber"></label></h1>
+        <h1> <label> USERNAME<input type="text" name="username" required placeholder="chosse a username that you won't forget "></label></h1>
+        <h1> <label> PASSWORD<input type="text" name="password" required ></label></h1>
+        <input type="hidden" value="1" name="submit">
+    <h1> <button type="submit">SIGN UP</sbutton></h1>
+    </form>
+</body>
+<style>
+      *{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	overflow-x:hidden;
+	overflow-y:scroll;
+	height:auto;
+	width:100%;
+    color: whitesmoke;
+    background-image:url('asset/img/photo-1609554496796-c345a5335ceb.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+h1{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+button{
+    width: 30%;
+    height: 50px ;
+    color: WHITE;
+    background-color: darkorange;
+}
+input{
+    width: 25%;
+    height: 40px ;
+ 
+}
+button:hover{
+    background-color: transparent;
+}
+
+</style>
+</html>
